@@ -26,28 +26,55 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     background-color: #1085e4;
+    border: 1px solid #1085e4;
     font-size: 12px;
+    letter-spacing: 2.5px;
     font-weight: 700;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 30px;
+}
+.btn-primary:hover {
+    color: #1085e4;
+    background-color: #ffffff; 
 }
 .btn-secondary {
     color: 7e8bae;
     text-transform: uppercase;
     background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
     font-size: 12px;
+    letter-spacing: 2.5px;
     font-weight: 700;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 30px;
+}
+.btn-secondary:hover {
+    color: #cbdbe8;
+    background-color: #ffffff; 
 }
 .btn-free {    
     font-weight: 400;
-    padding: 20px 50px;
+    padding: 21px 56px;
+    letter-spacing: 1.7;
+}
+.brn-info {
+    color: #8085b1;
+    background-color: transparent;
+    border:1px solid #dce1e5;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
 .grid h2{
     color: #192b59;
     font-size: 40px;
     font-weight: 700;
+}
+.btn-group a + a{
+    margin-left: 15px;
 }
 .grid h2 span {
     color: #1085e4;
