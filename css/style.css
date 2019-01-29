@@ -13,16 +13,36 @@ h1 {
     color:#192b59;
 }
 .nav {
-    font-size: 12px
+    font-size: 12px;
     color: #6e7ea9;
     text-transform: uppercase;
     font-weight: 700;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.btn-free {
+.btn-primary {
     color: #ffffff;
-    font-weight: 400;
+    text-transform: uppercase;
     background-color: #1085e4;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.btn-secondary {
+    color: 7e8bae;
+    text-transform: uppercase;
+    background-color: #cbdbe8;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.btn-free {    
+    font-weight: 400;
+    padding: 20px 50px;
 }
 .grid h2{
     color: #192b59;
