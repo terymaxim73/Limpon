@@ -16,27 +16,32 @@ h1 {
     letter-spacing: -0.5px;
     margin-bottom: 62px;
 }
-.title-h2 {
-    font-size: 50px;
+.title-40 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
     font-weight: 600;
     color: #192b59;
     line-height: 1.2;
 }
-.title-h2 span {
+.title-40 span {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
     font-weight: 800;
     color: #1085e4;
-    margin-bottom: 50px;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 1.2;
-    margin-bottom: 14px;
 }
 .page-stat .title-h2 {
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
+}
+
+.page-screen .title-h2 span{
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
 }
 .wrap {
     max-width: 1110px;
@@ -147,7 +152,38 @@ h1 {
     margin-bottom: 23px;
     letter-spacing: 0;
 }
-.page-stat {
+.screen {
+    margin-top: 36px;
+    margin-left: -23px;
+}
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+.box-price-item {
+    background-color: #f5faff;
+}
+.box-price-item.active {
+    background-color: #192b59;
+    color: #ffffff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Page */
+.page-stat, .page-screen {
     background-color: #edf6ff;
+}
+
+.page-stat {
     padding: 116px 0 96px 0;
+}
+.page-plan, .page-screen {
+    text-align: center;
+}
+.page-screen {
+    padding: 116px 0 0 0;
 }
