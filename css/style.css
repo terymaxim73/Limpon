@@ -231,6 +231,11 @@ h1 {
     list-style-type: none;
     padding-left: 0;
 }
+.box-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .box-subscribe-text {
     font-size: 18px;
     max-width: 437px;
